@@ -1,0 +1,124 @@
+.JobItemRoute-container {
+  background-color: #272727;
+  width: 800px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.JobItem1-container {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.JobItem-Logo {
+  width: 60px;
+  height: 60px;
+}
+
+.JobItem-tit-rat {
+  display: flex;
+  flex-direction: row;
+}
+
+.JobItem-rat {
+  display: flex;
+  flex-direction: column;
+}
+
+.JobItem-title {
+  color: white;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: Roboto;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.JobItem-Ai-star {
+  display: flex;
+  flex-direction: row;
+}
+
+.JobItem-AiFillStar {
+  margin-left: 15px;
+  color: #fbbf24;
+}
+
+.JobItem-rating-list {
+  margin-left: 10px;
+  color: white;
+  margin-top: -3px;
+}
+
+.JobItem-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.JobItem-ImLocation {
+  color: #ffffff;
+}
+
+.JobItem-Location {
+  color: white;
+  margin-top: -2px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.JobItem-bsBrief {
+  color: white;
+}
+
+.JobItem-Employment {
+  color: white;
+  margin-top: -2px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.JobItem-salary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: -30px;
+}
+
+.JobItem-Package {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -1px;
+}
+
+.JobItem-description {
+  color: white;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.JobItem-description {
+  color: white;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.Link-jobItem {
+  text-decoration: none;
+}
+
+.JobLine {
+  border: 1px solid #64748b;
+}
+
+@media screen and (max-width: 767px) {
+  .JobItemRoute-container {
+    width: 400px;
+  }
+}

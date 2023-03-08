@@ -1,0 +1,115 @@
+.SimilarJobDetail-container {
+  background-color: #272727;
+  width: 800px;
+  margin-left: 190px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.Similar-jobs {
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Similar-jobs-url {
+  display: flex;
+  flex-direction: row;
+}
+
+.Similar-jobs-company-logo {
+  width: 70px;
+  height: 70px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.Similar-jobs-ti-rat {
+  display: flex;
+  flex-direction: column;
+}
+
+.Similar-title {
+  font-family: Roboto;
+  font-weight: 500;
+  color: white;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.Similar-raying {
+  display: flex;
+  flex-direction: row;
+}
+
+.BsStarFill {
+  color: #fbbf24;
+  margin-left: 20px;
+}
+
+.SimilarJobs-rating {
+  color: white;
+  margin-left: 10px;
+  margin-top: -1px;
+}
+
+.Similar-job-description {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
+}
+
+.SimilarJob-description {
+  font-family: Roboto;
+  font-weight: 500;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.SimilarJob-location {
+  display: flex;
+  flex-direction: row;
+}
+
+.ImLocation-similarJobs {
+  color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.SimilarJobs-location-list {
+  color: white;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.BsBriefCase {
+  color: white;
+  margin-top: 20px;
+}
+
+.SimilarJob-employment {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Similar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .SimilarJobDetail-container {
+    width: 400px;
+    margin-left: 20px;
+  }
+}

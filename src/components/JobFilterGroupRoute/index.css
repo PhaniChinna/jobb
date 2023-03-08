@@ -1,0 +1,35 @@
+.List {
+  color: white;
+}
+
+.JobFilterGroupList-Route {
+  color: white;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.JobRouteList {
+  display: flex;
+  flex-direction: column;
+}
+
+.JobItem-FilterGroup-Route-hr {
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.JobFilterGroup {
+  margin-top: 10px;
+}
+
+.JobItem-Filter-key-value {
+  margin-bottom: 100px;
+  margin-top: -80px;
+}
+
+.JobItem-FilterGroup-Route-hr-Route {
+  width: 300px;
+  margin-top: -60px;
+  margin-left: 30px;
+}

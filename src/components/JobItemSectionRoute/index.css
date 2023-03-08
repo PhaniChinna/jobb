@@ -1,0 +1,148 @@
+.List {
+  color: white;
+}
+
+.JobItemDetails-unOrderList {
+  list-style-type: none;
+}
+
+.renderFailureView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.Render-loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 400px;
+  margin-top: 30px;
+}
+
+.JobItem-section-input {
+  margin-left: 100px;
+}
+
+.Input-jobItem-details {
+  width: 400px;
+  height: 30px;
+  outline: none;
+  padding: 10px;
+  color: white;
+  border: none;
+  background-color: transparent;
+  border: 2px solid #2c364c;
+  border-radius: 5px;
+}
+
+.Render-search-Button {
+  margin-left: 450px;
+  margin-top: -29px;
+}
+
+.Render-Button {
+  width: 35px;
+  height: 28px;
+  margin-left: 13px;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #272727;
+}
+
+.Render-BsSearch {
+  width: 13px;
+  height: 13px;
+  margin-left: -1px;
+  color: white;
+  margin-top: 1px;
+}
+
+.Render-No-jobs {
+  color: white;
+  margin-left: 190px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.Jobs-Render-Paragraph {
+  color: white;
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+
+.Render-job-Item-filter {
+  display: flex;
+  flex-direction: row;
+}
+
+.Render-Jobn {
+  display: flex;
+  flex-direction: column;
+}
+
+.NO-Jobs-failure {
+  margin-top: 120px;
+}
+
+.Render-jo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 360px;
+  margin-top: -690px;
+}
+
+.Render-BsSearch-icon {
+  color: white;
+}
+
+.Render-Button-icon {
+  background-color: #272727;
+  width: 30px;
+  height: 28px;
+  border-radius: 5px;
+  margin-left: -82px;
+  outline: none;
+  border: none;
+}
+
+.Render-fa-fail-fail {
+  color: white;
+}
+
+.We-cant-retry {
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .Input-jobItem-details {
+    width: 300px;
+    margin-left: -20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Render-search-Button {
+    margin-left: 330px;
+    margin-top: -29px;
+  }
+}
+
+@media Screen and (max-width: 767px) {
+  .Render-jo {
+    margin-top: 60px;
+    margin-left: -35px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .NO-Jobs-failure {
+    width: 450px;
+    height: 400px;
+  }
+}

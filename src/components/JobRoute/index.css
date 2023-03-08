@@ -1,0 +1,20 @@
+.JobsPage_Route {
+  background-color: #000000;
+  min-height: 180vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+}
+
+.JobPage-Heading {
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .JobsPage_Route {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

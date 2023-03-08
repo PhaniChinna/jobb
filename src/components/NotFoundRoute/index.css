@@ -1,0 +1,31 @@
+.NotFound-container {
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  padding: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.NotFound-Heading {
+  color: white;
+  font-family: Roboto;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.NotFound-Para {
+  color: white;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+  .NotFound-Para {
+    font-size: 12px;
+    text-align: center;
+  }
+}

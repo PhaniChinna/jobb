@@ -1,0 +1,123 @@
+.HeaderPage-container {
+  background-color: #272727;
+  height: 80px;
+  padding: 3px;
+}
+
+.HeaderPage1-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.HeaderPage-unOrderedList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.HeaderPage-logo {
+  width: 120px;
+  height: 40px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.HeaderPage-Home {
+  color: white;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.HeaderPage-Jobs {
+  color: white;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.HeaderPage-button {
+  width: 80px;
+  height: 30px;
+  margin-top: 12px;
+  margin-right: 50px;
+  background-color: #4f46e5;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.HeaderPage-mobile-container {
+  display: flex;
+}
+
+.HeaderPage1-unOrderedList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-right: 100px;
+}
+
+.AiFillHome {
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.BsBriefCaseFill {
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.FiLogout {
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .HeaderPage-mobile-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .HeaderPage-Home {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .HeaderPage-Jobs {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .HeaderPage-button {
+    display: none;
+  }
+}
